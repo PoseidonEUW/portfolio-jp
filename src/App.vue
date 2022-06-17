@@ -11,7 +11,7 @@
 </template>
 
 <script lang="coffee">
-import Navbar from '@/components/Templates/Navbar.vue'
+import Navbar from '@/components/Navbar.vue'
 export default {
   name:'App',
   components:{

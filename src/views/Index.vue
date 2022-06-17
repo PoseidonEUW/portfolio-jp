@@ -8,9 +8,11 @@
             Hey ! I'm Jessy Provenzal
         </div>
       </div>
-        <div class="column">
-          <div class="subtitle has-text-secondary">AH</div>
-          </div>
+        <!-- <div class="column">
+          <figure class="image">
+            <img src="https://yoann-bournique.fr/wp-content/uploads/2022/01/Screenshot_20220114-165826-931x2048.jpg" alt="" srcset="">
+          </figure>
+          </div> -->
         </div>
     </div>
   </div>
@@ -26,21 +28,147 @@
   <div class="hero-body">
     <div class="container">
     <div class="title has-text-secondary" >Qui suis-je ? </div>
-      <div class="title mb-6 is-size-4">Yoann BOURNIQUE – 22 ans</div>
+      <div class="title mb-6 is-size-4">JESSY PROVENZAL | 21 ans</div>
+      <div class="columns">
+        <div class="column">
+          <div class="subtitle has-text-left">
+            Je suis actuellement étudiant en Bachelor Développeur Web et Mobile en Alternance. En effet, dans cette formations, nous retrouvons une multitude de domaines tels que la programmation informatique, des outils et logiciels de développement et mobile, 
+            initiation webdesign et GameProd. 
       
-    <div class="subtitle">
-
-Hello ! Je suis actuellement étudiant en Licence Professionnelle UX2I Métiers du Numériques à l’IUT de BLOIS ! En effet, dans cette formation, nous retrouvons une multitude de domaines tels que l’UX/UI Design, le développement WEB, l’audiovisuel et la communication. 
-
-J’ai toujours été passionné par le monde du multimédia,  de la photographie et du dessin. Je suis également un grand fan de sport (Basketball – Football – Tennis). J’ai pour qualités d’être une personne curieuse, créative et passionnée mais je reste toutefois perfectionniste dans l’ensemble de mes projets.
-
-    </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="box has-background-secondary has-text-white">
+            <!-- <div class="card-content"> -->
+              <div class="content">
+                 <span class="icon-text">
+                  <span class="icon">
+                    <i class="fas fa-envelope fa-xl"/>
+                    </span>
+                <div class="has-text-weight-bold">EMAIL :</div>
+                  </span>
+                <p class="is-size-6">jessyprovenzal@hotmail.com</p>
+                <span class="icon-text">
+                  <span class="icon">
+                    <i class="fas fa-solid fa-briefcase fa-xl"/>
+                    </span>
+                <div class="has-text-weight-bold">POSTE :</div>
+                  </span>
+                <p class="is-size-6">Développeur</p>
+                <span class="icon-text">
+                  <span class="icon">
+                    <i class="fas fa-solid fa-phone fa-xl"/>
+                    </span>
+                <div class="has-text-weight-bold">TÉLÉPHONE :</div>
+                  </span>
+                <p class="is-size-6">+33 07 67 16 59 50</p>
+              </div>
+            <!-- </div> -->
+          </div>
+        </div>
+      </div>
+        <div class="columns is-flex is-flex-direction-column">
+          <div class="column ">
+            <div class="subtitle has-text-left">
+              J'ai toujours été curieux par le développement web et plus précisément par le développement d'applications logicielles. Je suis également un grand fan de jeux vidéos et j'adore faire de la musculation. 
+            J'ai pour qualités d'être une personne curieuse, active, serieuse et je reste toutefois perfectionniste dans l'ensemble de mes missions. En ce moment,  J'ai été admis dans la formation MBA Développeur Full-Stack à MyDigitalSchool situé à Angers ! 
+            </div>
+          </div>
+          <div class="column ">
+            <div class="box has-background-secondary">
+              <div class="columns ">
+                <div class="column">
+                  <div class="subtitle has-text-centered is-uppercase is-underlined">
+             <a :href="`${publicPath}CV-Alternance-JP.pdf`" download="download"> Télécharger mon CV</a>
+            </div>
+                </div>
+                <div class="column">
+                    <div class="subtitle has-text-centered is-uppercase is-underlined">
+             <a :href="`${publicPath}CV-Alternance-JP.pdf`" download="download"> Mon Portfolio</a>
+            </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
   </div>
 </section>
+<section id="formations" class="hero is-primary is-halfheight">
+  <div class="hero-body">
+    <div class="container">
+
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-secondary">Mes Formations</h3>
+      </div>
+      <div class="container mt-6">
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Front End Web Development</h4>
+                Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
+                Vue.js.
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Back End Web Development</h4>
+                Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="columns">
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Front End Web Development</h4>
+                Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
+                Vue.js.
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="box">
+              <div class="content">
+                <h4 class="title is-5">Back End Web Development</h4>
+                Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
+              </div>
+            </div>
+          </div>
+    </div>
+</div>
+      </div>
+    </div>
+  </section>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+<div class="hero-body"></div>
+
 </template>
 
-<script lang="coffee">
+<script lang="coffee" type="text/coffeescript">
 # // @ is an alias to /src
 
 export default {
@@ -48,5 +176,7 @@ export default {
   components: {
     # HelloWorld
   }
+  data: ()->
+    publicPath : process.env.BASE_URL
 }
 </script>

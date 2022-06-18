@@ -4,7 +4,7 @@
     <div class="container">
       <div class="columns is-flex is-justify-content-space-between">
         <div class="column is-one-quater">
-        <div class="title has-text-left has-text-bold has-text-secondary" style="font-size:68px">
+        <div class="title has-text-centered has-text-bold has-text-secondary" style="font-size:68px">
             Hey ! I'm Jessy Provenzal
         </div>
       </div>
@@ -97,51 +97,60 @@
 <section id="formations" class="hero is-primary is-halfheight">
   <div class="hero-body">
     <div class="container">
-
       <div class="section-heading">
         <h3 class="title is-2 has-text-secondary">Mes Formations</h3>
       </div>
-      <div class="container mt-6">
-        <div class="columns">
-          <div class="column">
-            <div class="box">
-              <div class="content">
-                <h4 class="title is-5">Front End Web Development</h4>
-                Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
-                Vue.js.
+
+      <div class="tile is-ancestor mt-2">
+          <div class="tile is-horizontal">
+            <div class="tile is-parent">
+              <div class="tile is-child">
+                <div class="box has-background-secondary ">
+                      <div class="content">
+                        <h4 class="title is-4 ">2021 - 2022 | MyDigitalSchool - Beaucouzé, 49070</h4>
+                        <div class="subtitle is-6 mt-2"> Étudiant en Bachelor Développeur Web et Mobile à MyDigitalSchool situé à Angers. En alternance chez Nästa en tant que Concepteur Developpeur d'application. </div>
+                      </div>
+                    </div>
               </div>
             </div>
-          </div>
-          <div class="column">
-            <div class="box">
-              <div class="content">
-                <h4 class="title is-5">Back End Web Development</h4>
-                Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
+            <div class="tile is-parent">
+              <div class="tile is-child">
+                <div class="box has-background-secondary ">
+                     <div class="content">
+                <h4 class="title is-4 ">2019 - 2021 | Lycée CHEVROLLIER - Angers, 49000</h4>
+                <div class="subtitle is-6 mt-2"> Etudiant en BTS SIO "Services informatiques aux organisations" spécialité SLAM "Solutions Logicielles et Applications Métier" au Lycée Public Polyvalent CHEVROLLIER. Obtention du diplôme en JUIN 2021.</div>
+              </div>
+                    </div>
               </div>
             </div>
           </div>
         </div>
-  
-        <div class="columns">
-          <div class="column">
-            <div class="box">
-              <div class="content">
-                <h4 class="title is-5">Front End Web Development</h4>
-                Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
-                Vue.js.
+        <div class="tile is-ancestor">
+          <div class="tile is-horizontal">
+            <div class="tile is-parent">
+              <div class="tile is-child">
+                <div class="box has-background-secondary ">
+                     <div class="content">
+                <h4 class="title is-4 ">2017 - 2019 | Lycée JEAN MOULIN - Angers, 49000</h4>
+                <div class="subtitle is-6 mt-2"> Lycéen au Lycée Public Polyvalent JEAN MOULIN & Obtention d'un BAC STI2D spécialité Energie & Environnement </div>
+                </div>
+                    </div>
               </div>
             </div>
+            
           </div>
-          <div class="column">
-            <div class="box">
-              <div class="content">
-                <h4 class="title is-5">Back End Web Development</h4>
-                Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
-              </div>
-            </div>
-          </div>
+        </div>
+      </div>
     </div>
-</div>
+  </section>
+  <section id="formations" class="hero is-primary is-halfheight">
+  <div class="hero-body">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-secondary">Mes Formations</h3>
+      </div>
+
+      
       </div>
     </div>
   </section>

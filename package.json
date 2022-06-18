@@ -9,6 +9,7 @@
     "dependencies": {
         "bulma": "^0.9.4",
         "bulma-carousel": "^4.0.24",
+        "bulma-dashboard": "^0.3.2",
         "bulma-extensions": "^6.2.7",
         "core-js": "^3.8.3",
         "element-plus": "^2.2.5",

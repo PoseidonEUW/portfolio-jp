@@ -1,14 +1,15 @@
 $primary:#15304b;
 $secondary: #ef673f;
 $secondary-invert: findColorInvert($secondary) !default;
-$custom-colors: (
-    "secondary":($secondary, $secondary-invert),
-    );
-    $navbar-item-img-max-height: 3.75rem;
-$family-sans-serif:"Rubik","Roboto", sans-serif;
+$custom-colors: ( "secondary":($secondary, $secondary-invert), );
+$navbar-item-img-max-height: 3.75rem;
+$family-sans-serif:"Rubik",
+"Roboto",
+sans-serif;
 $hero-body-padding-medium:7rem 2.5rem;
 // @import "~@creativebulma/bulma-divider";
 // Import component
 @import "~bulma-carousel";
 @import "~bulma";
 @import "~@creativebulma/bulma-divider";
+@import "~bulma-dashboard/dist/bulma-dashboard.min.css";

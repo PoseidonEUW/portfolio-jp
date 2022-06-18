@@ -5,7 +5,7 @@
       <div class="columns is-flex is-justify-content-space-between">
         <div class="column is-one-quater">
         <div class="title has-text-centered has-text-bold has-text-secondary" style="font-size:68px">
-            Hey ! I'm Jessy Provenzal
+            YO ! I'm Jessy Provenzal
         </div>
       </div>
         <!-- <div class="column">
@@ -43,21 +43,21 @@
               <div class="content">
                  <span class="icon-text">
                   <span class="icon">
-                    <i class="fas fa-envelope fa-xl"/>
+                    <i class="fas fa-envelope fa-xl"></i>
                     </span>
                 <div class="has-text-weight-bold">EMAIL :</div>
                   </span>
                 <p class="is-size-6">jessyprovenzal@hotmail.com</p>
                 <span class="icon-text">
                   <span class="icon">
-                    <i class="fas fa-solid fa-briefcase fa-xl"/>
+                    <i class="fas fa-solid fa-briefcase fa-xl"></i>
                     </span>
                 <div class="has-text-weight-bold">POSTE :</div>
                   </span>
                 <p class="is-size-6">Développeur</p>
                 <span class="icon-text">
                   <span class="icon">
-                    <i class="fas fa-solid fa-phone fa-xl"/>
+                    <i class="fas fa-solid fa-phone fa-xl"></i>
                     </span>
                 <div class="has-text-weight-bold">TÉLÉPHONE :</div>
                   </span>
@@ -143,42 +143,141 @@
       </div>
     </div>
   </section>
-  <section id="formations" class="hero is-primary is-halfheight">
+  <section id="competences" class="hero is-primary is-halfheight">
   <div class="hero-body">
     <div class="container">
       <div class="section-heading">
-        <h3 class="title is-2 has-text-secondary">Mes Formations</h3>
+        <h3 class="title is-2 has-text-secondary">Mes Compétences</h3>
       </div>
-
-      
+        <div class="columns mt-5 has-text-white is-uppercase" >
+          <div class="column hover_effect mr-6 ">
+            <div class="title has-text-centered">Front-End</div>
+                <div class="columns">
+                  <div class="column is-one-quarter">
+                    <div class="subtitle is-6">JavaScript</div>
+                  </div>
+                  <div class="column">
+                      <progress class="progress is-secondary" value="60" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column is-one-quarter">
+                    <div class="subtitle is-6">HTML5/CSS3</div>
+                  </div>
+                  <div class="column">
+                      <progress class="progress is-secondary" value="90" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column is-one-quarter">
+                    <div class="subtitle is-6">Bulma</div>
+                  </div>
+                  <div class="column">
+                      <progress class="progress is-secondary" value="70" max="100"></progress>
+                  </div>
+                </div>
+                 <div class="columns">
+                  <div class="column is-one-quarter">
+                    <div class="subtitle is-6">Bootstrap</div>
+                  </div>
+                  <div class="column">
+                      <progress class="progress is-secondary" value="70" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column is-one-quarter">
+                    <div class="subtitle is-6">Tailwind CSS</div>
+                  </div>
+                  <div class="column">
+                      <progress class="progress is-secondary" value="70" max="100"></progress>
+                  </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-one-quarter">
+                      <div class="subtitle is-6">Vue.js</div>
+                    </div>
+                    <div class="column">
+                        <progress class="progress is-secondary" value="60" max="100"></progress>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column is-one-quarter">
+                      <div class="subtitle is-6">React Native</div>
+                    </div>
+                    <div class="column">
+                        <progress class="progress is-secondary" value="40" max="100"></progress>
+                    </div>
+                </div>
+          </div>
+          <div class="column hover_effect">
+            <div class="title has-text-centered">Back-End</div>
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <div class="subtitle is-6">Python</div>
+              </div>
+              <div class="column">
+                  <progress class="progress is-secondary" value="60" max="100"></progress>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <div class="subtitle is-6">PHP</div>
+              </div>
+              <div class="column">
+                  <progress class="progress is-secondary" value="65" max="100"></progress>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <div class="subtitle is-6">C#</div>
+              </div>
+              <div class="column">
+                  <progress class="progress is-secondary" value="52" max="100"></progress>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <div class="subtitle is-6">Django</div>
+              </div>
+              <div class="column">
+                  <progress class="progress is-secondary" value="45" max="100"></progress>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <div class="subtitle is-6">SQL</div>
+              </div>
+              <div class="column">
+                  <progress class="progress is-secondary" value="70" max="100"></progress>
+              </div>
+            </div>
+            <div class="columns">
+              <div class="column is-one-quarter">
+                <div class="subtitle is-6">MYSQL</div>
+              </div>
+              <div class="column">
+                  <progress class="progress is-secondary" value="75" max="100"></progress>
+              </div>
+            </div>
+             <div class="columns">
+              <div class="column is-one-quarter">
+                <div class="subtitle is-6">Laravel</div>
+              </div>
+              <div class="column">
+                  <progress class="progress is-secondary" value="70" max="100"></progress>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="subtitle is-5 mt-6">Au cours de mes différentes formations et de mes projets personnels, j’ai pu acquérir diverses compétences dans différents domaines lié à mon projet professionnel qui est de devenir un Développeur Full-Stack.</div>
       </div>
     </div>
   </section>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
-<div class="hero-body"></div>
 
 </template>
 
 <script lang="coffee" type="text/coffeescript">
-# // @ is an alias to /src
+# // @ is an alias to /srcHey
 
 export default {
   name: 'Index',
@@ -189,3 +288,12 @@ export default {
     publicPath : process.env.BASE_URL
 }
 </script>
+<style lang="scss">
+.hover_effect{
+    // padding:50px;
+    // background-color:green;
+    transition: transform .2s;
+    &:hover{
+      transform: scale(1.1);
+    }
+}</style>

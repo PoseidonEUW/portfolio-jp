@@ -28,12 +28,9 @@
             <router-link class="navbar-item" :to="{name:'index', hash:'#formations'}">
               Mes Formations
             </router-link>
-            <a class="navbar-item">
+            <router-link class="navbar-item" :to="{name:'index', hash:'#competences'}">
               Mes Compétences
-            </a>
-            <a class="navbar-item">
-              Mes Compétences
-            </a>
+            </router-link>
             <a class="navbar-item">
               Mon Portfolio
             </a>
@@ -64,6 +61,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+
 
 </style>

@@ -1,5 +1,5 @@
 <template>
-<section class="hero is-primary is-large">
+<section class="hero is-primary is-large section_hidden">
   
   <!-- Hero head: will stick at the top -->
   <div class="hero-head has-text-secondary">
@@ -17,7 +17,7 @@
             <span aria-hidden="true"></span>
         </a>
         </div>
-        <div id="navbarMenuHeroC" class="navbar-menu is-size-4-desktop" :class="active ? 'is-active' : ''">
+        <div id="navbarMenuHeroC" class="navbar-menu is-size-4-desktop" :class="active ? 'is-active' : 'is-hidden'">
           <div class="navbar-end is-flex is-flex-direction-column is-justify-content-flex-start">
             <router-link class="navbar-item" :to="{name:'index', hash:'#accueil'}">
               Accueil
@@ -62,6 +62,10 @@ export default {
 </script>
 
 <style lang="scss">
-
+@media screen and (min-width: 1023px) {
+.section_hidden{
+    visibility: hidden;
+}
+}
 
 </style>

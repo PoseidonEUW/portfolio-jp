@@ -41,7 +41,7 @@
             Je suis une personne curieuse, active, serieuse et je reste perfectionniste dans l'ensemble des missions qui me sont confiées. Aujourd'hui, j'ai été admis dans la formation MBA Développeur Full-Stack à MyDigitalSchool situé à Angers ! 
             </div>
         </div>
-        <div class="column is-one-quarter">
+        <div class="column is-one-quarter has-text-centered-mobile">
           <div class="box has-background-secondary has-text-white">
             <!-- <div class="card-content"> -->
               <div class="content">
@@ -109,7 +109,7 @@
                 <div class="box has-background-secondary hover_effect ">
                       <div class="content">
                         <h4 class="title is-4 ">2021 - 2022 | MyDigitalSchool - Beaucouzé, 49070</h4>
-                        <div class="subtitle is-6 mt-2"> Étudiant en Bachelor Développeur Web et Mobile à MyDigitalSchool situé à Angers. En alternance chez Nästa en tant que Concepteur Developpeur d'application. </div>
+                        <div class="subtitle is-6 mt-2 has-text-justified"> Étudiant en Bachelor Développeur Web et Mobile à MyDigitalSchool situé à Angers. En alternance chez Nästa en tant que Concepteur Developpeur d'application. </div>
                       </div>
                     </div>
               </div>
@@ -119,7 +119,7 @@
                 <div class="box has-background-secondary hover_effect ">
                      <div class="content">
                 <h4 class="title is-4 ">2019 - 2021 | Lycée CHEVROLLIER - Angers, 49000</h4>
-                <div class="subtitle is-6 mt-2"> Etudiant en BTS SIO "Services informatiques aux organisations" spécialité SLAM "Solutions Logicielles et Applications Métier" au Lycée Public Polyvalent CHEVROLLIER. Obtention du diplôme en JUIN 2021.</div>
+                <div class="subtitle is-6 mt-2 has-text-justified"> Etudiant en BTS SIO "Services informatiques aux organisations" spécialité SLAM "Solutions Logicielles et Applications Métier" au Lycée Public Polyvalent CHEVROLLIER. Obtention du diplôme en JUIN 2021.</div>
               </div>
                     </div>
               </div>
@@ -133,7 +133,7 @@
                 <div class="box has-background-secondary hover_effect ">
                 <div class="content">
                   <h4 class="title is-4 ">2017 - 2019 | Lycée JEAN MOULIN - Angers, 49000</h4>
-                  <div class="subtitle is-6 mt-2"> Lycéen au Lycée Public Polyvalent JEAN MOULIN & Obtention d'un BAC STI2D spécialité Energie & Environnement </div>
+                  <div class="subtitle is-6 mt-2 has-text-justified"> Lycéen au Lycée Public Polyvalent JEAN MOULIN & Obtention d'un BAC STI2D spécialité Energie & Environnement </div>
                 </div>
                     </div>
               </div>
@@ -151,7 +151,7 @@
         <h3 class="title is-2 has-text-secondary">Mes Compétences</h3>
       </div>
         <div class="columns mt-5 has-text-white is-uppercase" >
-          <div class="column hover_effect mr-6 ">
+          <div class="column hover_effect mr-6-desktop ">
             <div class="title has-text-centered">Front-End</div>
                 <div class="columns">
                   <div class="column is-one-quarter">
@@ -270,7 +270,7 @@
             </div>
           </div>
         </div>
-        <div class="subtitle is-5 mt-6">Au cours de mes différentes formations et de mes projets personnels, j’ai pu acquérir diverses compétences dans différents domaines lié à mon projet professionnel qui est de devenir un Développeur Full-Stack.</div>
+        <div class="subtitle is-5 mt-6 has-text-justified">Au cours de mes différentes années de formation et de mes projets personnels, j’ai pu acquérir diverses compétences dans une multitude de domaines lié à mon projet professionnel qui est de devenir un Développeur Full-Stack.</div>
       </div>
     </div>
   </section>
@@ -383,10 +383,10 @@
         <h3 class="title is-2 has-text-secondary">Me Contacter</h3>
       </div>
 
-          <div class="subtitle is-3 has-text-white mt-4">
+          <div class="subtitle is-3-desktop has-text-white mt-4">
             Vous êtes convaincu ? Alors n’attendez pas pour me contacter !
           </div>
-          <div class="subtitle is-4 has-text-secondary mt-4">
+          <div class="subtitle is-4-desktop has-text-secondary mt-4">
             <span class="has-text-weight-bold">TELEPHONE</span> : 07 82 08 01 30
             <br>
             <span class="has-text-weight-bold">EMAIL</span> : jessyprovenzalpro@gmail.com

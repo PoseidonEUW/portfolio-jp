@@ -4,8 +4,8 @@
     <div class="container">
       <div class="columns is-flex is-justify-content-space-between">
         <div class="column is-one-quater">
-        <div class="title has-text-centered has-text-bold has-text-secondary" style="font-size:68px">
-            YO ! I'm Jessy Provenzal
+        <div class="title has-text-centered has-text-weight-bold has-text-secondary" style="font-size:68px">
+            Hello ! I'm Jessy Provenzal
         </div>
       </div>
         <!-- <div class="column">
@@ -31,13 +31,17 @@
       <div class="title mb-6 is-size-4">JESSY PROVENZAL | 21 ans</div>
       <div class="columns">
         <div class="column">
-          <div class="subtitle has-text-left">
-            Je suis actuellement étudiant en Bachelor Développeur Web et Mobile en Alternance. En effet, dans cette formations, nous retrouvons une multitude de domaines tels que la programmation informatique, des outils et logiciels de développement et mobile, 
-            initiation webdesign et GameProd. 
+          <div class="subtitle has-text-justified">
+            Je suis actuellement étudiant en Bachelor Développeur Web et Mobile en Alternance. Dans cette formation, nous retrouvons une multitude de domaines tels que la programmation informatique, des outils et logiciels de développement web et mobile, ainsi que de 
+            l'initiation au webdesign. 
       
           </div>
+          <div class="subtitle has-text-justified">
+              J'ai toujours été intéressé par le développement web et plus précisément par le développement d'applications logicielles. Je suis également un grand fan de jeux vidéos et j'adore faire de la musculation. 
+            Je suis une personne curieuse, active, serieuse et je reste perfectionniste dans l'ensemble des missions qui me sont confiées. Aujourd'hui, j'ai été admis dans la formation MBA Développeur Full-Stack à MyDigitalSchool situé à Angers ! 
+            </div>
         </div>
-        <div class="column">
+        <div class="column is-one-quarter">
           <div class="box has-background-secondary has-text-white">
             <!-- <div class="card-content"> -->
               <div class="content">
@@ -69,10 +73,7 @@
       </div>
         <div class="columns is-flex is-flex-direction-column">
           <div class="column ">
-            <div class="subtitle has-text-left">
-              J'ai toujours été curieux par le développement web et plus précisément par le développement d'applications logicielles. Je suis également un grand fan de jeux vidéos et j'adore faire de la musculation. 
-            J'ai pour qualités d'être une personne curieuse, active, serieuse et je reste toutefois perfectionniste dans l'ensemble de mes missions. En ce moment,  J'ai été admis dans la formation MBA Développeur Full-Stack à MyDigitalSchool situé à Angers ! 
-            </div>
+            
           </div>
           <div class="column ">
             <div class="box has-background-secondary">
@@ -84,7 +85,7 @@
                 </div>
                 <div class="column">
                     <div class="subtitle has-text-centered is-uppercase is-underlined">
-             <a :href="`${publicPath}CV-Alternance-JP.pdf`" download="download"> Mon Portfolio</a>
+                          <router-link :to="{name:'index', hash:'#portfolio'}"> Mon Portfolio</router-link>
             </div>
                 </div>
               </div>
@@ -105,7 +106,7 @@
           <div class="tile is-horizontal">
             <div class="tile is-parent">
               <div class="tile is-child">
-                <div class="box has-background-secondary ">
+                <div class="box has-background-secondary hover_effect ">
                       <div class="content">
                         <h4 class="title is-4 ">2021 - 2022 | MyDigitalSchool - Beaucouzé, 49070</h4>
                         <div class="subtitle is-6 mt-2"> Étudiant en Bachelor Développeur Web et Mobile à MyDigitalSchool situé à Angers. En alternance chez Nästa en tant que Concepteur Developpeur d'application. </div>
@@ -115,7 +116,7 @@
             </div>
             <div class="tile is-parent">
               <div class="tile is-child">
-                <div class="box has-background-secondary ">
+                <div class="box has-background-secondary hover_effect ">
                      <div class="content">
                 <h4 class="title is-4 ">2019 - 2021 | Lycée CHEVROLLIER - Angers, 49000</h4>
                 <div class="subtitle is-6 mt-2"> Etudiant en BTS SIO "Services informatiques aux organisations" spécialité SLAM "Solutions Logicielles et Applications Métier" au Lycée Public Polyvalent CHEVROLLIER. Obtention du diplôme en JUIN 2021.</div>
@@ -129,10 +130,10 @@
           <div class="tile is-horizontal">
             <div class="tile is-parent">
               <div class="tile is-child">
-                <div class="box has-background-secondary ">
-                     <div class="content">
-                <h4 class="title is-4 ">2017 - 2019 | Lycée JEAN MOULIN - Angers, 49000</h4>
-                <div class="subtitle is-6 mt-2"> Lycéen au Lycée Public Polyvalent JEAN MOULIN & Obtention d'un BAC STI2D spécialité Energie & Environnement </div>
+                <div class="box has-background-secondary hover_effect ">
+                <div class="content">
+                  <h4 class="title is-4 ">2017 - 2019 | Lycée JEAN MOULIN - Angers, 49000</h4>
+                  <div class="subtitle is-6 mt-2"> Lycéen au Lycée Public Polyvalent JEAN MOULIN & Obtention d'un BAC STI2D spécialité Energie & Environnement </div>
                 </div>
                     </div>
               </div>
@@ -273,6 +274,128 @@
       </div>
     </div>
   </section>
+   <section id="portfolio" class="hero is-primary is-halfheight">
+  <div class="hero-body">
+    <div class="container portfolio-container">
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-secondary">Mon Portfolio</h3>
+      </div>
+          <div class="columns mt-4">
+            <div class="column is-4">
+              <!-- admin -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Admin <small>(Light)</small></span>
+                    <span class="is-pulled-right">
+                      <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
+                        <span class="tag is-default">v0.7.2</span>
+                      </a>
+                      <span class="tag is-default">Desktop</span>
+                      <span class="tag is-danger">WIP</span>
+                    </span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <!-- <img src="../images/admin.png" alt="Admin template screenshot"> -->
+                    <img src="@/assets/Logo_Portfolio.png" alt="">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a href="templates/admin.html" class="card-footer-item">Preview</a>
+                  <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source
+                    Code</a>
+                </footer>
+              </div>
+              <!-- cards -->
+            
+            </div>
+            <div class="column is-4">
+              <!-- admin -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Admin <small>(Light)</small></span>
+                    <span class="is-pulled-right">
+                      <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
+                        <span class="tag is-default">v0.7.2</span>
+                      </a>
+                      <span class="tag is-default">Desktop</span>
+                      <span class="tag is-danger">WIP</span>
+                    </span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <!-- <img src="../images/admin.png" alt="Admin template screenshot"> -->
+                    <img src="@/assets/Logo_Portfolio.png" alt="">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a href="templates/admin.html" class="card-footer-item">Preview</a>
+                  <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source
+                    Code</a>
+                </footer>
+              </div>
+              <!-- cards -->
+            
+            </div>
+            <div class="column is-4">
+              <!-- admin -->
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
+                    <span>Admin <small>(Light)</small></span>
+                    <span class="is-pulled-right">
+                      <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
+                        <span class="tag is-default">v0.7.2</span>
+                      </a>
+                      <span class="tag is-default">Desktop</span>
+                      <span class="tag is-danger">WIP</span>
+                    </span>
+                  </p>
+                </header>
+                <div class="card-content">
+                  <figure class="image">
+                    <!-- <img src="../images/admin.png" alt="Admin template screenshot"> -->
+                    <img src="@/assets/Logo_Portfolio.png" alt="">
+                  </figure>
+                </div>
+                <footer class="card-footer">
+                  <a href="templates/admin.html" class="card-footer-item">Preview</a>
+                  <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source
+                    Code</a>
+                </footer>
+              </div>
+              <!-- cards -->
+            
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <section id="contact" class="hero is-primary is-halfheight">
+  <div class="hero-body">
+    <div class="container">
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-secondary">Me Contacter</h3>
+      </div>
+
+          <div class="subtitle is-3 has-text-white mt-4">
+            Vous êtes convaincu ? Alors n’attendez pas pour me contacter !
+          </div>
+          <div class="subtitle is-4 has-text-secondary mt-4">
+            <span class="has-text-weight-bold">TELEPHONE</span> : 07 82 08 01 30
+            <br>
+            <span class="has-text-weight-bold">EMAIL</span> : jessyprovenzalpro@gmail.com
+            <br>
+            <span class="has-text-weight-bold">LOCALISATION</span> : ANGERS
+          </div>
+      </div>
+    </div>
+  </section>
 
 </template>
 
@@ -289,11 +412,12 @@ export default {
 }
 </script>
 <style lang="scss">
+@media screen and (min-width: 1023px) {
 .hover_effect{
-    // padding:50px;
-    // background-color:green;
     transition: transform .2s;
     &:hover{
       transform: scale(1.1);
     }
-}</style>
+}
+}
+</style>

@@ -20,7 +20,7 @@
   <section class="section has-background-primary">
         <div class="divider is-center is-primary has-text-secondary">
     <span class="icon is-large ">
-      <i class="fa-solid fa-arrow-down fa-4x"></i>
+      <router-link class="fa-solid fa-arrow-down fa-4x has-text-secondary" :to="{name:'index', hash:'#accueil'}"></router-link>
     </span>
   </div>
   </section>
@@ -303,7 +303,7 @@
                   </figure>
                 </div>
                 <footer class="card-footer">
-                  <a href="templates/admin.html" class="card-footer-item">Preview</a>
+                  <a class="card-footer-item">Preview soon</a>
                   <a href="https://github.com/PoseidonEUW/PPE4_Ragnarok/tree/master" target="_blank" class="card-footer-item">Source
                     Code</a>
                 </footer>

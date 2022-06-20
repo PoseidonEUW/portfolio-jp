@@ -6,10 +6,13 @@
   </header>
  <body>
   <div class="columns">
-    <div class="column has-background-primary">
+    <div class="column has-background-primary ">
       <router-view/>
     </div>
+    <div class="column has-background-primary is-2">
        <Menu/>
+
+    </div>
   </div>
   
 

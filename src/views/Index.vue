@@ -80,7 +80,7 @@
               <div class="columns ">
                 <div class="column">
                   <div class="subtitle has-text-centered is-uppercase is-underlined">
-             <a :href="`${publicPath}CV-Alternance-JP.pdf`" download="download"> Télécharger mon CV</a>
+             <a :href="`${publicPath}CV-Alternance-JP.pdf`" download="CV_JP_2022"> Télécharger mon CV</a>
             </div>
                 </div>
                 <div class="column">
@@ -286,7 +286,7 @@
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
-                    <span>PPE Carantec <small>(Light)</small></span>
+                    <span>PPE Carantec</span>
                     <span class="is-pulled-right">
                       <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
                       </a>
@@ -303,9 +303,11 @@
                   </figure>
                 </div>
                 <footer class="card-footer">
-                  <a class="card-footer-item">Preview soon</a>
-                  <a href="https://github.com/PoseidonEUW/PPE4_Ragnarok/tree/master" target="_blank" class="card-footer-item">Source
-                    Code</a>
+                  <a href="http://www.ppecarantec.jessy-provenzal.fr/" class="card-footer-item">Aperçu</a>
+                  <a href="https://github.com/PoseidonEUW/PPE4_Ragnarok/tree/master" target="_blank" class="card-footer-item">Code Source</a>
+                  <a :href="`${publicPath}JPROVENZAL_E4_PresentationSituationProfessionnelle.pdf`" download="JP_Doc_Detaillé_Examen" class="card-footer-item"> Doc detaillé</a>
+                  
+                  
                 </footer>
               </div>
               <!-- cards -->
@@ -330,9 +332,8 @@
                   </figure>
                 </div>
                 <footer class="card-footer">
-                  <a  class="card-footer-item is-disabled">Preview</a>
-                  <a class="card-footer-item">Source
-                    Code</a>
+                  <a class="card-footer-item">Aperçu</a>
+                  <a class="card-footer-item">Code Source</a>
                 </footer>
               </div>
               <!-- cards -->

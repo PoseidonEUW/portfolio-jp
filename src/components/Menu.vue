@@ -36,6 +36,7 @@
               Me Contacter
             </router-link>
             </li>
+            <a class="has-text-secondary is-size-5" target="_blank" href="https://www.linkedin.com/in/jessy-provenzal-9a511a214/">LinkedIn</a>
           </ul>
         </aside>
 </template>

@@ -286,25 +286,25 @@
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
-                    <span>Admin <small>(Light)</small></span>
+                    <span>PPE Carantec <small>(Light)</small></span>
                     <span class="is-pulled-right">
                       <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                        <span class="tag is-default">v0.7.2</span>
                       </a>
                       <span class="tag is-default">Desktop</span>
-                      <span class="tag is-danger">WIP</span>
+                      <span class="tag is-success ml-2">Done</span>
                     </span>
+                      <span style="font-size:10px" class="has-text-right" >Date: Decembre 2020 – Fin Avril 2021</span>
                   </p>
                 </header>
                 <div class="card-content">
                   <figure class="image">
                     <!-- <img src="../images/admin.png" alt="Admin template screenshot"> -->
-                    <img src="@/assets/Logo_Portfolio.png" alt="">
+                    <img src="@/assets/carantecred.png" alt="">
                   </figure>
                 </div>
                 <footer class="card-footer">
                   <a href="templates/admin.html" class="card-footer-item">Preview</a>
-                  <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source
+                  <a href="https://github.com/PoseidonEUW/PPE4_Ragnarok/tree/master" target="_blank" class="card-footer-item">Source
                     Code</a>
                 </footer>
               </div>
@@ -316,55 +316,22 @@
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
-                    <span>Admin <small>(Light)</small></span>
+                    <span>Coming soon...</span>
                     <span class="is-pulled-right">
                       <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                        <span class="tag is-default">v0.7.2</span>
                       </a>
-                      <span class="tag is-default">Desktop</span>
-                      <span class="tag is-danger">WIP</span>
                     </span>
                   </p>
                 </header>
                 <div class="card-content">
                   <figure class="image">
                     <!-- <img src="../images/admin.png" alt="Admin template screenshot"> -->
-                    <img src="@/assets/Logo_Portfolio.png" alt="">
+                    <img src="@/assets/coming-soon-stamp-3.png" alt="">
                   </figure>
                 </div>
                 <footer class="card-footer">
-                  <a href="templates/admin.html" class="card-footer-item">Preview</a>
-                  <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source
-                    Code</a>
-                </footer>
-              </div>
-              <!-- cards -->
-            
-            </div>
-            <div class="column is-4">
-              <!-- admin -->
-              <div class="card">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    <span>Admin <small>(Light)</small></span>
-                    <span class="is-pulled-right">
-                      <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
-                        <span class="tag is-default">v0.7.2</span>
-                      </a>
-                      <span class="tag is-default">Desktop</span>
-                      <span class="tag is-danger">WIP</span>
-                    </span>
-                  </p>
-                </header>
-                <div class="card-content">
-                  <figure class="image">
-                    <!-- <img src="../images/admin.png" alt="Admin template screenshot"> -->
-                    <img src="@/assets/Logo_Portfolio.png" alt="">
-                  </figure>
-                </div>
-                <footer class="card-footer">
-                  <a href="templates/admin.html" class="card-footer-item">Preview</a>
-                  <a href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/admin.html" class="card-footer-item">Source
+                  <a  class="card-footer-item is-disabled">Preview</a>
+                  <a class="card-footer-item">Source
                     Code</a>
                 </footer>
               </div>
@@ -389,7 +356,7 @@
           <div class="subtitle is-4-desktop has-text-secondary mt-4">
             <span class="has-text-weight-bold">TELEPHONE</span> : 07 82 08 01 30
             <br>
-            <span class="has-text-weight-bold">EMAIL</span> : jessyprovenzalpro@gmail.com
+            <span class="has-text-weight-bold">EMAIL</span> : jessyprovenzal@hotmail.com
             <br>
             <span class="has-text-weight-bold">LOCALISATION</span> : ANGERS
           </div>
@@ -416,7 +383,7 @@ export default {
 .hover_effect{
     transition: transform .2s;
     &:hover{
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
 }
 }

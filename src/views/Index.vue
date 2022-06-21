@@ -51,7 +51,7 @@
                     </span>
                 <div class="has-text-weight-bold">EMAIL :</div>
                   </span>
-                <p class="is-size-6">jessyprovenzal@hotmail.com</p>
+                <a href="mailto: jessyprovenzal@hotmail.com" class="is-size-6">jessyprovenzal@hotmail.com</a>
                 <span class="icon-text">
                   <span class="icon">
                     <i class="fas fa-solid fa-briefcase fa-xl"></i>
@@ -65,7 +65,7 @@
                     </span>
                 <div class="has-text-weight-bold">TÉLÉPHONE :</div>
                   </span>
-                <p class="is-size-6">+33 07 67 16 59 50</p>
+                <a href="tel:+330767165950" class="is-size-6">+33 07 67 16 59 50</a>
               </div>
             <!-- </div> -->
           </div>

@@ -283,15 +283,14 @@
           <div class="columns mt-4">
             <div class="column is-4">
               <!-- admin -->
-              <div class="card">
+              <div class="card hover_effect">
                 <header class="card-header">
                   <p class="card-header-title">
                     <span>PPE Carantec</span>
                     <span class="is-pulled-right">
                       <a href="https://github.com/jgthms/bulma/releases/tag/0.7.2">
                       </a>
-                      <span class="tag is-default">Desktop</span>
-                      <span class="tag is-success ml-2">Done</span>
+                      <span class="tag is-default">Desktop / Mobile</span>
                     </span>
                       <span style="font-size:10px" class="has-text-right" >Date: Decembre 2020 – Fin Avril 2021</span>
                   </p>
@@ -315,7 +314,7 @@
             </div>
             <div class="column is-4">
               <!-- admin -->
-              <div class="card">
+              <div class="card hover_effect">
                 <header class="card-header">
                   <p class="card-header-title">
                     <span>Coming soon...</span>
@@ -355,9 +354,10 @@
             Vous êtes convaincu ? Alors n’attendez pas pour me contacter !
           </div>
           <div class="subtitle is-4-desktop has-text-secondary mt-4">
-            <span class="has-text-weight-bold">TELEPHONE</span> : 07 82 08 01 30
+          <span class="has-text-weight-bold">TELEPHONE</span> : <a href="tel:+330767165950">+33 07 67 16 59 50</a>
+
             <br>
-            <span class="has-text-weight-bold">EMAIL</span> : jessyprovenzal@hotmail.com
+            <span class="has-text-weight-bold">EMAIL</span> : <a href="mailto: jessyprovenzal@hotmail.com">jessyprovenzal@hotmail.com</a>
             <br>
             <span class="has-text-weight-bold">LOCALISATION</span> : ANGERS
           </div>
@@ -387,5 +387,8 @@ export default {
       transform: scale(1.05);
     }
 }
+}
+.card {
+  height: 100%;
 }
 </style>

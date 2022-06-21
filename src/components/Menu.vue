@@ -37,6 +37,7 @@
             </router-link>
             </li>
             <a class="has-text-secondary is-size-5" target="_blank" href="https://www.linkedin.com/in/jessy-provenzal-9a511a214/">LinkedIn</a>
+            <a class="has-text-secondary is-size-5" target="_blank" href="https://github.com/PoseidonEUW">GitHub</a>
           </ul>
         </aside>
 </template>

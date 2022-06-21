@@ -31,12 +31,14 @@
             <router-link class="navbar-item" :to="{name:'index', hash:'#competences'}">
               Mes Compétences
             </router-link>
-            <a class="navbar-item">
+            <router-link class="navbar-item" :to="{name:'index',hash:'#portfolio'}">
               Mon Portfolio
-            </a>
-            <a class="navbar-item">
+            </router-link>
+            <router-link class="navbar-item" :to="{name:'index',hash:'#contact'}">
               Me Contacter
-            </a>
+            </router-link>
+            <a class="navbar-item" target="_blank" href="https://www.linkedin.com/in/jessy-provenzal-9a511a214/">LinkedIn</a>
+            <a class="navbar-item" target="_blank" href="https://github.com/PoseidonEUW">GitHub</a>
           </div>
         </div>
       <!-- </div> -->

@@ -131,11 +131,21 @@
             <div class="tile is-parent">
               <div class="tile is-child">
                 <div class="box has-background-secondary hover_effect ">
-                <div class="content">
-                  <h4 class="title is-4 ">2017 - 2019 | Lycée JEAN MOULIN - Angers, 49000</h4>
-                  <div class="subtitle is-6 mt-2 has-text-justified"> Lycéen au Lycée Public Polyvalent JEAN MOULIN & Obtention d'un BAC STI2D spécialité Energie & Environnement </div>
+                  <div class="content">
+                    <h4 class="title is-4 ">2017 - 2019 | Lycée JEAN MOULIN - Angers, 49000</h4>
+                    <div class="subtitle is-6 mt-2 has-text-justified"> Lycéen au Lycée Public Polyvalent JEAN MOULIN & Obtention d'un BAC STI2D spécialité Energie & Environnement </div>
+                  </div>
                 </div>
-                    </div>
+              </div>
+            </div>
+            <div class="tile is-parent">
+              <div class="tile is-child">
+                <div class="box has-background-secondary hover_effect ">
+                  <div class="content">
+                    <h4 class="title is-4 ">2012 - 2017 | Lycée Francais International de Panama - Panama</h4>
+                    <div class="subtitle is-6 mt-2 has-text-justified"> Collégien et Lycéen au Lycée Francais International de Panama & Obtention du Brevet des collèges</div>
+                  </div>
+                </div>
               </div>
             </div>
             
@@ -388,7 +398,7 @@ export default {
     }
 }
 }
-.card {
+.card .tile{
   height: 100%;
 }
 </style>

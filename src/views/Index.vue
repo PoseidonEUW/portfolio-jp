@@ -343,6 +343,7 @@
                 <footer class="card-footer">
                   <a class="card-footer-item">Aperçu</a>
                   <a class="card-footer-item">Code Source</a>
+                  <a class="card-footer-item">Doc Detaillé</a>
                 </footer>
               </div>
               <!-- cards -->
@@ -398,7 +399,10 @@ export default {
     }
 }
 }
-.card .tile{
+.card{
+  height: 100%;
+}
+.tile{
   height: 100%;
 }
 </style>

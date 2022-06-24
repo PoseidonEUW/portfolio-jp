@@ -20,7 +20,7 @@
   <section class="section has-background-primary">
         <div class="divider is-center is-primary has-text-secondary">
     <span class="icon is-large ">
-      <router-link class="fa-solid fa-arrow-down fa-4x has-text-secondary" :to="{name:'index', hash:'#accueil'}"></router-link>
+      <router-link class="fa-solid fa-arrow-down fa-4x has-text-secondary" :to="{name:'index', hash:'#a_propos'}"></router-link>
     </span>
   </div>
   </section>

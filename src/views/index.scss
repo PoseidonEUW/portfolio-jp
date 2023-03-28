@@ -1,0 +1,18 @@
+@media screen and (min-width: 1023px) {
+    .hover_effect{
+        transition: transform .2s;
+        &:hover{
+          transform: scale(1.05);
+        }
+    }
+    }
+    .card{
+      height: 100%;
+    }
+    .tile{
+      height: 100%;
+    }
+    .card-footer.flex {
+      display: flex;
+      justify-content: space-between;
+    }
